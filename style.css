@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    
+    
+}
+.header-content img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+
+}
+
+.auto-type {
+    color: red;
+    font-style: italic;
+}
+
+
+.portfolio-content{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-top: #fff;
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    height: auto;
+    
+}
+
+.container-fluid {
+    background-color: black;
+}
+.body {
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    color: #fff;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+nav li {
+   margin: 20px;
+  border-style: outset;
+  padding-right: 10px;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-right: 0px;
+   border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav :hover{
+    color: red;
+
+}
+
+
+.container-text-center {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.container-text-center .card-title {
+    text-align: center;
+}
+.container-text-center .card {
+    background-color:#333;
+    color: #fff;
+}
+
+
+#myCarousel img {
+    width: 780px;
+    height: 400px;
+    border-radius: 10px;
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%;
+}
+
+#contact {
+    background-color: black;
+    padding: 50px 0;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-container form {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .contact-container input,
+  .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-container textarea {
+    height: 120px;
+  }
+  
+  .contact-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-container button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+

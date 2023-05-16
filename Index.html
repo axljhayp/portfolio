@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">Blog</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+        <header>
+            <div class="header-content">
+                <img src="axljhayp (2).png" class="img-fluid" alt="profile-picture">
+                <h1>Axl Jhay P.</h1>
+                 <div class="container">
+                    <h4><code>{</code><kbd>I'm a <span class="auto-type"></span></kbd><code>}</code></h4>
+                    
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="portfolio-content" id="about">
+            <h1 style="text-align: center;"><kbd>About Me</kbd></h1>
+            <p style="text-align: center; margin-left: 10px; margin-right: 10px; font-size: large;">My name is <code style="color: orchid;">{ Axl Jhay Pescador }</code>, and I am a 21-year-old college student currently enrolled in the University of Eastern Pangasinan. As an IT student, I am passionate about the field of technology and always eager to learn new things. 
+                One of my greatest strengths is my proficiency in front-end development. I have extensive knowledge and experience working with HTML, CSS, and JavaScript, and I believe that these skills will be invaluable as I progress in my career. 
+                Furthermore, I am a hardworking individual who is committed to achieving success in all aspects of my life. I believe that with dedication and perseverance, I can make a meaningful contribution to any organization that I am a part of.</p>
+                <h2 style="text-align: center; padding-top: 40px;">My hobbies</h2>
+                <div class="container-text-center">
+                    <div class="row align-items-start">
+                      <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="sleep.jpg" class="card-img-top" alt="sleep img">
+                            <div class="card-body">
+                              <h5 class="card-title">SLEEP <ion-icon name="bed"></ion-icon></h5>
+                              <p class="card-text">I love sleeping because it provides me with the energy I need to excel in my daily endeavors. Getting a good night's sleep not only rejuvenates me physically but also enhances my mental clarity and focus, enabling me to accomplish great things each day.</p>
+                            </div>
+                          </div>
+                      </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="coding.jpg" class="card-img-top" alt="coding img">
+                                <div class="card-body">
+                                  <h5 class="card-title">CODING <ion-icon name="code"></ion-icon></h5>
+                                  <p class="card-text">Coding is not just my everyday work; it has become my hobby because it often provides me with a surreal sense of accomplishment when I create something from scratch.</p>
+                                </div>
+                              </div>
+                      </div>
+                      <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="music.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">CREATE MUSIC <ion-icon name="musical-notes"></ion-icon></h5>
+                                  <p class="card-text">Making music is one of my cherished hobbies. It not only gives me a sense of tranquility but also brings me immense joy. Through music, I find solace, a medium where I can freely express my emotions and weave my stories.</p>
+                                </div>
+                              </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                </div>
+                <div class="portfolio-content" id="projects">
+                    <h1 style="text-align: center;"><kbd>My Projects</kbd></h1>
+                    <h3 style="text-align: center; padding-top: 20px;">Portfolios <small>(front-end)</small></h3>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="project-1.png" alt="Image 1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="project-2.png" alt="Image 2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="project-3.png" alt="Image 3">
+                          </div>
+                        
+                        </div>
+                        
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                            <p style="padding-top: 50px; text-align: center;"><b>Here are the recently created portfolio websites I made. These websites are purely front-end and do not have a back-end functionality. I completed them in just three days.</b></p>
+
+                        </div>
+                        <div class="portfolio-content" id="contact">
+                            <h2>Contact</h2>
+                             <div class="contact-container">
+                                 <form id="contact-form" action="send_message.php" method="POST">
+                                    <input type="text" name="name" placeholder="Your Name" required>
+                                    <input type="email" name="email" placeholder="Your Email" required>
+                                    <textarea name="message" placeholder="Your Message" required></textarea>
+                                     <button type="submit" name="submit">Send Message</button>
+                                </form>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+               
+        </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed (".auto-type", {
+            strings: ["Developer", "Video editor", "Designer"],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop: true
+        })
+
+    </script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
